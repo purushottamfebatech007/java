@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xmlns:web="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
+  <display-name>webapplication1</display-name>
+  <welcome-file-list>
+    <welcome-file>indexht.html</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>MyHttpTestServlet1App</display-name>
+    <servlet-name>MyHttpTestServlet1App</servlet-name>
+    <servlet-class>TestServlet1</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MyHttpTestServlet1App</servlet-name>
+    <url-pattern>/HELLO</url-pattern>
+  </servlet-mapping>
+</web-app>

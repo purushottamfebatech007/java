@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<head>
+    <title>Greetings</title>
+</head>
+<body>
+<h1 align="center"><br/><br/><br/><br/>
+Febatech Employee Greet App
+</h1>
+<h2 align="center">
+<label>Enter Your Name:</label>
+<input type="text" placeholder="Enter name" id="getName">
+<h3 align="center">
+<button onclick="getNameHandler()">Greet to Employee</button><br/>
+<script>
+const getNameHandler= () =>{
+	const getName = "Hello " + document.getElementById("getName").value +"..Welcome to Febatech";
+    localStorage.setItem("GreetName",getName)
+    location.href = "indexsecondht.html"
+}
+</script>
+</h3>
+</h2>
+</body>
+</html>
